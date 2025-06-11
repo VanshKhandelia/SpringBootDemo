@@ -1,0 +1,54 @@
+2025-06-09 15:19:09 [INFO] Response from /users endpoint:
+[{"id":1,"name":"Vansh","age":21},{"id":2,"name":"jack","age":22}]
+2025-06-09 15:19:27 [INFO] Starting DemoApplication using Java 24.0.1 with PID 15532 (C:\Users\khand\Downloads\demo\demo\target\classes started by khand in C:\Users\khand\Downloads\demo\demo)
+2025-06-09 15:19:27 [INFO] No active profile set, falling back to 1 default profile: "default"
+2025-06-09 15:19:28 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-09 15:19:28 [INFO] Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2025-06-09 15:19:28 [INFO] Tomcat initialized with port 8081 (http)
+2025-06-09 15:19:28 [INFO] Initializing ProtocolHandler ["http-nio-8081"]
+2025-06-09 15:19:28 [INFO] Starting service [Tomcat]
+2025-06-09 15:19:28 [INFO] Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-09 15:19:28 [INFO] Initializing Spring embedded WebApplicationContext
+2025-06-09 15:19:28 [INFO] Root WebApplicationContext: initialization completed in 822 ms
+2025-06-09 15:19:28 [INFO] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-09 15:19:28 [INFO] HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-06-09 15:19:28 [INFO] HHH000026: Second-level cache disabled
+2025-06-09 15:19:29 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-09 15:19:29 [INFO] HikariPool-1 - Starting...
+2025-06-09 15:19:29 [INFO] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48ae9e8b
+2025-06-09 15:19:29 [INFO] HikariPool-1 - Start completed.
+2025-06-09 15:19:29 [WARN] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-09 15:19:29 [WARN] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-06-09 15:19:29 [INFO] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-09 15:19:30 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-09 15:19:30 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-09 15:19:30 [WARN] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-09 15:19:30 [INFO] Starting ProtocolHandler ["http-nio-8081"]
+2025-06-09 15:19:30 [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-06-09 15:19:30 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-09 15:19:30 [INFO] HikariPool-1 - Shutdown initiated...
+2025-06-09 15:19:30 [INFO] HikariPool-1 - Shutdown completed.
+2025-06-09 15:19:30 [INFO] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-06-09 15:19:30 [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
